@@ -1,0 +1,121 @@
+html,body {
+  font-family: "Open Sans", sans-serif;
+}
+.card-header {
+  background: #260138;
+  color: white;
+  font-weight: 800;
+}
+header {
+  background:url("../images/home-bg.jpg");
+}
+.jumbotron {
+  background: none;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.navbar-light .navbar-brand {
+  font-weight: 800;
+  font-size: 18px;
+}
+.display-4 {
+  font-size: 50px;
+  font-weight: 800;
+}
+.lead {
+  font-size: 24px;
+  font-weight: 300;
+}
+.jumbotron hr {
+  border: 1px solid white;
+  margin: 12px auto;
+  width: 16%;
+}
+/* classe card et categories au même niveau, sur le même élément */
+.card.categories a {
+  text-transform: uppercase;
+}
+/* classe card et authors au même niveau, sur le même élément */
+.card.authors a {
+  text-transform: lowercase;
+}
+.card a {
+  color: black;
+}
+.card a:hover {
+  color: #666666;
+  text-decoration: none;
+}
+article {
+  border-bottom: 1px solid #EEEEEE;
+  padding: 20px 0 28px 0;
+}
+main article:last-child {
+  border: 0;
+}
+article .title {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 34px;
+  color: black;
+}
+article .title:hover {
+  text-decoration: none;
+  color: #333333;
+}
+article p {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 26px;
+  margin: 10px 0 16px 0;
+}
+article .infos {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 400;
+  color: #666666;
+}
+article .infos span {
+  color: black;
+}
+footer {
+  border-top: 1px solid #EEEEEE;
+  padding-top: 40px;
+}
+.social-networks a {
+  background: #333333;
+  color: white;
+  font-size: 24px;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  text-align: center;
+  line-height: 44px;
+  margin: 0 10px;
+}
+footer .copyright {
+  margin: 30px 0 10px 0;
+  font-size: 14px;
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  nav.navbar {
+    background: none!important;
+  }
+  .navbar-light .navbar-brand {
+    color: white;
+  }
+  .navbar-light .navbar-brand:hover {
+    color: white;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color : rgba(255,255,255,.8);
+  }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color:white;
+  }
+}
