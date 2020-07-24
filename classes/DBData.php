@@ -8,9 +8,9 @@ class DBData {
     
     // constructeur est appelé automatiquement à l'instanciation de notre objet
     public function __construct() {
-        $dsn = 'mysql:dbname=ceau4982_oblog;host=localhost;charset=UTF8';
-        $username = 'ceau4982_oblog';
-        $password = '.szD[QC3hV9[';
+        $dsn = 'mysql:dbname=oblog;host=localhost;charset=UTF8';
+        $username = 'oblog';
+        $password = 'oblog';
 
         try {
             $this->pdo = new PDO(
